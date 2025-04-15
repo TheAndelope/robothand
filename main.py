@@ -6,7 +6,7 @@ from bleak import BleakClient
 
 # Replace with your ESP32 BLE device address
 BLE_DEVICE_ADDRESS = "XX:XX:XX:XX:XX:XX"  # You can find this address using a BLE scanner
-CHARACTERISTIC_UUID = "xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx"  # UUID for the characteristic to write to
+CHARACTERISTIC_UUID = "87654321-4321-4321-4321-987654321abc"  # UUID for the characteristic to write to
 
 mp_hands = mp.solutions.hands
 hands = mp_hands.Hands(static_image_mode=False, max_num_hands=1, min_detection_confidence=0.7)
